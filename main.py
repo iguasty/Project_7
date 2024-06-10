@@ -30,8 +30,9 @@ print("\nNow creating a toaster...\n")
 #toaster object, inherits from KitchenAppliance
 my_toaster = toaster.Toaster()
 print(my_toaster)
-my_toaster.input_time()
 my_toaster.power_on()
+my_toaster.input_time()
+
 # my_toaster.start_process()  #uncomment this line to cause program to crash with an exception
 
 print("\nThis is the end...")

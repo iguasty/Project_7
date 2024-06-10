@@ -14,6 +14,7 @@ class KitchenAppliance:
     def power_on(self):
         """Power on method"""
         print("Powering on!")
+        return True
         
     def start_process(self):
         """Start kitchen appliance cycle/process"""
